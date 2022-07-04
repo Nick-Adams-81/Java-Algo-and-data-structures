@@ -6,5 +6,6 @@ public class Main {
         // BigO.printItems(10);
         BigO.printMoreItems(10);
         System.out.println(BigO.addStuff(3));
+        BigO.printStuff(4, 7);
     }
 }
