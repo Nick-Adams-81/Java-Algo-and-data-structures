@@ -6,6 +6,8 @@ public class Main {
     public static void main(String[] args) {
         Cookie cookieOne = new Cookie("green");
         Cookie cookieTwo = new Cookie("blue");
+        cookieOne.setColor("red");
+        cookieTwo.setColor("orange");
         BigO.printItems(10);
         BigO.printMoreItems(5);
         System.out.println(BigO.addStuff(3));
