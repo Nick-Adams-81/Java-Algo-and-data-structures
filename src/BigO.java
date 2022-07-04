@@ -16,6 +16,7 @@ public class BigO {
     // Big o = O(n^2)
     // explanation: every nested loop runs n times n, or n * n, in our case this runs n * n * n, or this would be O(n3), we simplify this to O(n^2)
     public static void printMoreItems(int n) {
+        // Big o = O(n^2)
         for(int i = 0; i < n; i++) {
             for(int j = 0; j < n; j++) {
                 System.out.println(i + " " + j);
