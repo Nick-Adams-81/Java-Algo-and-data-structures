@@ -134,5 +134,14 @@ public class LinkedList {
         return true;
     }
 
+    public boolean setNode(int index, int value) {
+        // O(n)
+        Node temp = getNode(index);
+        if(temp != null) {
+            temp.value = value;
+            return true;
+        }
+        return false;
+    }
 
 }

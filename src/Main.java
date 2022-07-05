@@ -39,11 +39,13 @@ public class Main {
 //        myLinkedList.printList();
 
         myLinkedList.prepend(0);
-        myLinkedList.printList();
+        //myLinkedList.printList();
 //        myLinkedList.removeFirstNode();
 //        myLinkedList.printList();
         //System.out.println(myLinkedList.getNode(2).value);
         myLinkedList.insert(2, 2);
+        myLinkedList.printList();
+        myLinkedList.setNode(1, 89);
         myLinkedList.printList();
 
     }
