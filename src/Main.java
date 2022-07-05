@@ -26,26 +26,5 @@ public class Main {
 //        System.out.println(map1);
 
         // linked list
-
-        LinkedList myLinkedList = new LinkedList(4);
-
-
-        myLinkedList.appendList(7);
-
-
-//        myLinkedList.removeLastNode();
-
-        myLinkedList.prependList(8);
-
-        myLinkedList.printList();
-        myLinkedList.insertNode(3, 9);
-        myLinkedList.printList();
-        myLinkedList.setNode(2, 100);
-        myLinkedList.printList();
-        myLinkedList.removeNode(1);
-        myLinkedList.printList();
-
-
-
     }
 }
