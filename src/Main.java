@@ -24,17 +24,6 @@ public class Main {
         map1 = map3; // we are "pointing" map1 to map3
         System.out.println(map1);
 
-//        Cookie cookieOne = new Cookie("green");
-//        Cookie cookieTwo = new Cookie("blue");
-//        cookieOne.setColor("red");
-//        cookieTwo.setColor("orange");
-//
-//        BigO.printItems(10);
-//        BigO.printMoreItems(5);
-//        System.out.println(BigO.addStuff(3));
-//        BigO.printStuff(4, 7);
-//
-//        System.out.println(cookieOne.getColor());
-//        System.out.println(cookieTwo.getColor());
+
     }
 }
