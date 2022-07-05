@@ -145,6 +145,7 @@ public class LinkedList {
     }
 
     public Node remove(int index) {
+        // O(1)
         if(index < 0 || index >= length) return null;
         if(index == 0) return removeFirstNode();
         if(index == length -1) return removeLastNode();
@@ -156,6 +157,22 @@ public class LinkedList {
         temp.next = null;
         length--;
         return temp;
+    }
+
+    public void reverseLinkedList() {
+        // O(n)
+        Node temp = head;
+        head = tail;
+        tail = temp;
+        Node after = temp.next;
+        Node before = null;
+        for(int i = 0; i < length; i++) {
+            after = temp.next;
+            temp.next = before;
+            before = temp;
+            temp = after;
+
+        }
     }
 
 }

@@ -45,9 +45,11 @@ public class Main {
         //System.out.println(myLinkedList.getNode(2).value);
         myLinkedList.insert(2, 2);
         myLinkedList.printList();
-        myLinkedList.setNode(1, 89);
+        myLinkedList.setNode(1, 1);
         myLinkedList.printList();
-        myLinkedList.remove(1);
+        //myLinkedList.remove(1);
+        //myLinkedList.printList();
+        myLinkedList.reverseLinkedList();
         myLinkedList.printList();
 
     }
