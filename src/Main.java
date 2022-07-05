@@ -28,12 +28,14 @@ public class Main {
         // linked list
 
         LinkedList myLinkedList = new LinkedList(4);
-        myLinkedList.getHead();
-        myLinkedList.getTail();
-        myLinkedList.getLength();
         myLinkedList.appendList(5);
         myLinkedList.getHead();
         myLinkedList.getTail();
         myLinkedList.getLength();
+        myLinkedList.removeLast();
+        myLinkedList.getHead();
+        myLinkedList.getTail();
+        myLinkedList.getLength();
+
     }
 }
