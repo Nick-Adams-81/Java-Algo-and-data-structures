@@ -33,5 +33,11 @@ public class Main {
         myLinkedList.getTail();
         myLinkedList.getLength();
 
+        myLinkedList.append(7);
+        myLinkedList.getHead();
+        myLinkedList.getTail();
+        myLinkedList.getLength();
+
+
     }
 }
