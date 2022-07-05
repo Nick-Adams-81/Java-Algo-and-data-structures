@@ -27,22 +27,17 @@ public class Main {
 
         // linked list
 
-        LinkedList myLinkedList = new LinkedList(4);
-        myLinkedList.appendList(5);
-        myLinkedList.appendList(6);
-//        myLinkedList.getHead();
-//        myLinkedList.getTail();
-//        myLinkedList.getLength();
-//        myLinkedList.removeLast();
-//        myLinkedList.getHead();
-//        myLinkedList.getTail();
-//        myLinkedList.getLength();
-        myLinkedList.prependList(3);
-        myLinkedList.getHead();
-        myLinkedList.getTail();
-        myLinkedList.getLength();
-        myLinkedList.removeFirst();
+        LinkedList myLinkedList = new LinkedList(1);
+        myLinkedList.appendList(2);
+        myLinkedList.appendList(3);
+
+        myLinkedList.prependList(0);
+
+
         myLinkedList.printList();
+        myLinkedList.getLength();
+        System.out.println(myLinkedList.getNode(3).value);
+
 
     }
 }
