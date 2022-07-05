@@ -31,13 +31,17 @@ public class Main {
         LinkedList myLinkedList = new LinkedList(1);
         myLinkedList.append(2);
         myLinkedList.append(3);
+        // 3 items - prints 123
         myLinkedList.printList();
         myLinkedList.removeLastNode();
+        // 2 items - prints 12
         myLinkedList.printList();
         myLinkedList.removeLastNode();
+        // 1 item - prints 1
         myLinkedList.printList();
 
-
+        myLinkedList.prepend(0);
+        myLinkedList.printList();
 
     }
 }
