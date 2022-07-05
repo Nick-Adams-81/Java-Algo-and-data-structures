@@ -37,6 +37,8 @@ public class Main {
         myLinkedList.getHead();
         myLinkedList.getTail();
         myLinkedList.getLength();
+        myLinkedList.removeLastNode();
+        myLinkedList.printList();
 
 
     }
