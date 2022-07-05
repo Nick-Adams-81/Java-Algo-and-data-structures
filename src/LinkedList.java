@@ -124,4 +124,13 @@ public class LinkedList {
         length++;
         return true;
     }
+
+    public boolean set(int index, int value) {
+        Node temp = getNode(index);
+        if(temp != null) {
+            temp.value = value;
+            return true;
+        }
+        return false;
+    }
 }

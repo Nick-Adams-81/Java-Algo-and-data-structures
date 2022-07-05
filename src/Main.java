@@ -39,6 +39,8 @@ public class Main {
         System.out.println(myLinkedList.getNode(3).value);
         myLinkedList.insertNode(4, 4);
         myLinkedList.printList();
+        myLinkedList.set(0, 13);
+        myLinkedList.printList();
 
 
     }
