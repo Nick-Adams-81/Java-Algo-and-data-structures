@@ -102,6 +102,7 @@ public class LinkedList {
     }
 
     public Node get(int index) {
+        // O(n)
         if(index < 0 || index >= length) return null;
         Node temp = head;
         for(int i = 0; i < index; i++) {
@@ -111,6 +112,7 @@ public class LinkedList {
     }
 
     public boolean insertNode(int index, int value) {
+
         if(index < 0 || index > length) return false;
         if(index == 0) {
             prependList(value);
@@ -135,6 +137,20 @@ public class LinkedList {
             return true;
         }
         return false;
+    }
+
+    public Node removeNode(int index) {
+        if(index < 0 || index >= length) return null;
+        if (index == 0) return removeFirstNode();
+        if(index == length -1) return removeLastNode();
+
+        Node prev = get(index -1);
+        Node temp = prev.next;
+        prev.next = temp.next;
+        temp.next = null;
+        length--;
+        return temp;
+
     }
 
 }

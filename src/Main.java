@@ -42,6 +42,8 @@ public class Main {
         myLinkedList.printList();
         myLinkedList.setNode(2, 100);
         myLinkedList.printList();
+        myLinkedList.removeNode(1);
+        myLinkedList.printList();
 
 
 
