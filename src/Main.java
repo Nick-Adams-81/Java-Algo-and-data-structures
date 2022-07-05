@@ -29,10 +29,15 @@ public class Main {
 
         LinkedList myLinkedList = new LinkedList(4);
         myLinkedList.appendList(5);
+        myLinkedList.appendList(6);
         myLinkedList.getHead();
         myLinkedList.getTail();
         myLinkedList.getLength();
         myLinkedList.removeLast();
+        myLinkedList.getHead();
+        myLinkedList.getTail();
+        myLinkedList.getLength();
+        myLinkedList.prependList(0);
         myLinkedList.getHead();
         myLinkedList.getTail();
         myLinkedList.getLength();
