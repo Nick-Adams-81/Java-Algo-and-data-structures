@@ -43,6 +43,8 @@ public class Main {
         myLinkedList.printList();
         myLinkedList.remove(4);
         myLinkedList.printList();
+        myLinkedList.reverseList();
+        myLinkedList.printList();
 
 
     }

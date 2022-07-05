@@ -145,4 +145,19 @@ public class LinkedList {
         length--;
         return temp;
     }
+
+    public void reverseList() {
+        Node temp = head;
+        head = tail;
+        tail = temp;
+        Node after = temp.next;
+        Node before = null;
+
+        for(int i = 0; i < length; i++) {
+            after = temp.next;
+            temp.next = before;
+            before = temp;
+            temp = after;
+        }
+    }
 }
