@@ -1,6 +1,4 @@
-import org.w3c.dom.Node;
 
-import java.util.HashMap;
 
 public class Main {
 
@@ -32,15 +30,17 @@ public class Main {
         myLinkedList.append(2);
         myLinkedList.append(3);
         // 3 items - prints 123
-        myLinkedList.printList();
-        myLinkedList.removeLastNode();
-        // 2 items - prints 12
-        myLinkedList.printList();
-        myLinkedList.removeLastNode();
-        // 1 item - prints 1
-        myLinkedList.printList();
+//        myLinkedList.printList();
+//        myLinkedList.removeLastNode();
+//        // 2 items - prints 12
+//        myLinkedList.printList();
+//        myLinkedList.removeLastNode();
+//        // 1 item - prints 1
+//        myLinkedList.printList();
 
         myLinkedList.prepend(0);
+        myLinkedList.printList();
+        myLinkedList.removeFirstNode();
         myLinkedList.printList();
 
     }
