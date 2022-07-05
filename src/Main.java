@@ -29,24 +29,22 @@ public class Main {
 
         LinkedList myLinkedList = new LinkedList(4);
 
-//        myLinkedList.getHead();
-//        myLinkedList.getTail();
-//        myLinkedList.getLength();
 
         myLinkedList.append(7);
+
+
+//        myLinkedList.removeLastNode();
+
+        myLinkedList.prependList(8);
 //        myLinkedList.getHead();
 //        myLinkedList.getTail();
 //        myLinkedList.getLength();
-//        myLinkedList.removeLastNode();
-        //myLinkedList.printList();
-        myLinkedList.prependList(8);
-        myLinkedList.getHead();
-        myLinkedList.getTail();
-        myLinkedList.getLength();
-        myLinkedList.removeFirstNode();
-        myLinkedList.getHead();
-        myLinkedList.getTail();
-        myLinkedList.getLength();
+//        myLinkedList.removeFirstNode();
+//        myLinkedList.getHead();
+//        myLinkedList.getTail();
+//        myLinkedList.getLength();
+        myLinkedList.printList();
+        System.out.println(myLinkedList.get(1).value);
 
 
 
