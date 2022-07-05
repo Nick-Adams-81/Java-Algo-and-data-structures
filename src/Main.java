@@ -34,11 +34,15 @@ public class Main {
         myLinkedList.getLength();
 
         myLinkedList.append(7);
+//        myLinkedList.getHead();
+//        myLinkedList.getTail();
+//        myLinkedList.getLength();
+//        myLinkedList.removeLastNode();
+        //myLinkedList.printList();
+        myLinkedList.prependList(8);
         myLinkedList.getHead();
         myLinkedList.getTail();
         myLinkedList.getLength();
-        myLinkedList.removeLastNode();
-        myLinkedList.printList();
 
 
     }
