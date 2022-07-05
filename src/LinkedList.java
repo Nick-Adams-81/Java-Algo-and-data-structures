@@ -42,4 +42,16 @@ public class LinkedList {
         System.out.println("Length: " + length);
     }
 
+    public void appendList(int value) {
+        Node newNode = new Node(value);
+        if(length == 0) {
+            head = newNode;
+            tail = newNode;
+        } else {
+            tail.next = newNode;
+            tail = newNode;
+        }
+        length++;
+    }
+
 }
