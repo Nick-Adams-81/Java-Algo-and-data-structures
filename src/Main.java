@@ -26,31 +26,8 @@ public class Main {
 //        System.out.println(map1);
 
         // linked list
-        LinkedList myLinkedList = new LinkedList(1);
-        //myLinkedList.append(2);
-        myLinkedList.append(3);
-        // 3 items - prints 123
-//        myLinkedList.printList();
-//        myLinkedList.removeLastNode();
-//        // 2 items - prints 12
-//        myLinkedList.printList();
-//        myLinkedList.removeLastNode();
-//        // 1 item - prints 1
-//        myLinkedList.printList();
 
-        myLinkedList.prepend(0);
-        //myLinkedList.printList();
-//        myLinkedList.removeFirstNode();
-//        myLinkedList.printList();
-        //System.out.println(myLinkedList.getNode(2).value);
-        myLinkedList.insert(2, 2);
-        myLinkedList.printList();
-        myLinkedList.setNode(1, 1);
-        myLinkedList.printList();
-        //myLinkedList.remove(1);
-        //myLinkedList.printList();
-        myLinkedList.reverseLinkedList();
-        myLinkedList.printList();
+        LinkedList myLinkedList = new LinkedList(4);
 
     }
 }
