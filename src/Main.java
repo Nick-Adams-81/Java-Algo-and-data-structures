@@ -40,6 +40,8 @@ public class Main {
         myLinkedList.printList();
         myLinkedList.insertNode(3, 9);
         myLinkedList.printList();
+        myLinkedList.setNode(2, 100);
+        myLinkedList.printList();
 
 
 
