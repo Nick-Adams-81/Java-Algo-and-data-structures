@@ -30,21 +30,16 @@ public class Main {
         LinkedList myLinkedList = new LinkedList(4);
 
 
-        myLinkedList.append(7);
+        myLinkedList.appendList(7);
 
 
 //        myLinkedList.removeLastNode();
 
         myLinkedList.prependList(8);
-//        myLinkedList.getHead();
-//        myLinkedList.getTail();
-//        myLinkedList.getLength();
-//        myLinkedList.removeFirstNode();
-//        myLinkedList.getHead();
-//        myLinkedList.getTail();
-//        myLinkedList.getLength();
+
         myLinkedList.printList();
-        System.out.println(myLinkedList.get(1).value);
+        myLinkedList.insertNode(3, 9);
+        myLinkedList.printList();
 
 
 

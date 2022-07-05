@@ -43,7 +43,7 @@ public class LinkedList {
         System.out.println("Length: " + length);
     }
 
-    public void append(int value) {
+    public void appendList(int value) {
         Node newNode = new Node(value);
         if(length == 0) {
             head = newNode;
@@ -108,6 +108,24 @@ public class LinkedList {
             temp = temp.next;
         }
         return temp;
+    }
+
+    public boolean insertNode(int index, int value) {
+        if(index < 0 || index > length) return false;
+        if(index == 0) {
+            prependList(value);
+            return true;
+        }
+        if(index == length) {
+            appendList(value);
+            return true;
+        }
+        Node newNode = new Node(value);
+        Node temp = get(index -1);
+        newNode.next = temp.next;
+        temp.next = newNode;
+        length++;
+        return true;
     }
 
 }
