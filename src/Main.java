@@ -26,5 +26,10 @@ public class Main {
 //        System.out.println(map1);
 
         // linked list
+
+        LinkedList myLinkedList = new LinkedList(4);
+        myLinkedList.getHead();
+        myLinkedList.getTail();
+        myLinkedList.getLength();
     }
 }
