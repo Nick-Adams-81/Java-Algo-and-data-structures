@@ -40,8 +40,9 @@ public class Main {
 
         myLinkedList.prepend(0);
         myLinkedList.printList();
-        myLinkedList.removeFirstNode();
-        myLinkedList.printList();
+//        myLinkedList.removeFirstNode();
+//        myLinkedList.printList();
+        System.out.println(myLinkedList.getNode(2).value);
 
     }
 }

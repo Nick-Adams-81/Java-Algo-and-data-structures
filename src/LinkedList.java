@@ -93,6 +93,7 @@ public class LinkedList {
     }
 
     public Node removeFirstNode() {
+        // O(1)
         if(length == 0) return null;
         Node temp = head;
         head = head.next;
@@ -100,6 +101,15 @@ public class LinkedList {
         length--;
         if(length == 0) {
             tail = null;
+        }
+        return temp;
+    }
+
+    public Node getNode(int index) {
+        if(index < 0 || index >= length) return null;
+        Node temp = head;
+        for(int i = 0; i < index; i++) {
+            temp = temp.next;
         }
         return temp;
     }
