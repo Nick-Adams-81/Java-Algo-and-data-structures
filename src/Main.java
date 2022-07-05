@@ -29,9 +29,9 @@ public class Main {
 
         LinkedList myLinkedList = new LinkedList(4);
 
-        myLinkedList.getHead();
-        myLinkedList.getTail();
-        myLinkedList.getLength();
+//        myLinkedList.getHead();
+//        myLinkedList.getTail();
+//        myLinkedList.getLength();
 
         myLinkedList.append(7);
 //        myLinkedList.getHead();
@@ -43,6 +43,11 @@ public class Main {
         myLinkedList.getHead();
         myLinkedList.getTail();
         myLinkedList.getLength();
+        myLinkedList.removeFirstNode();
+        myLinkedList.getHead();
+        myLinkedList.getTail();
+        myLinkedList.getLength();
+
 
 
     }

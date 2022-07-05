@@ -76,6 +76,7 @@ public class LinkedList {
     }
 
     public void prependList(int value) {
+        // O(1)
         Node newNode = new Node(value);
         if(length == 0) {
             head = newNode;
@@ -85,6 +86,18 @@ public class LinkedList {
             head = newNode;
         }
         length++;
+    }
+
+    public Node removeFirstNode() {
+        if(length == 0) return null;
+        Node temp = head;
+        head = head.next;
+        temp.next = null;
+        length--;
+        if(length == 0) {
+            tail = null;
+        }
+        return temp;
     }
 
 }
