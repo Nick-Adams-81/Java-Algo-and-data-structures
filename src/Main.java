@@ -32,6 +32,10 @@ public class Main {
         myLinkedList.getHead();
         myLinkedList.getTail();
         myLinkedList.getLength();
+        myLinkedList.append(7);
+        myLinkedList.getHead();
+        myLinkedList.getTail();
+        myLinkedList.getLength();
 
 
     }
