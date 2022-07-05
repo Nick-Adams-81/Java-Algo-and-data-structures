@@ -23,6 +23,7 @@ public class LinkedList {
     }
 
     public void printList() {
+        // O(1)
         Node temp = head;
         while(temp != null) {
             System.out.println(temp.value);
@@ -32,18 +33,22 @@ public class LinkedList {
     }
 
     public void getHead() {
+        // O(1)
         System.out.println("Head: " + head.value);
     }
 
     public void getTail() {
+        // O(1)
         System.out.println("Tail: " + tail.value);
     }
 
     public void getLength() {
+        // O(1)
         System.out.println("Length: " + length);
     }
 
     public void append(int value) {
+        // O(1)
         Node newNode = new Node(value);
         if(length == 0) {
             head = newNode;
@@ -54,6 +59,29 @@ public class LinkedList {
         }
         length++;
     }
+
+    public Node removeLastNode() {
+        // O(n)
+        if(length == 0) return null;
+        Node temp = head;
+        Node pre = head;
+        while (temp.next != null) {
+            pre = temp;
+            temp = temp.next;
+        }
+        tail = pre;
+        tail.next = null;
+        length--;
+        if(length == 0) {
+            head = null;
+            tail = null;
+        }
+        return temp;
+    }
+
+
+
+
 
 
 
