@@ -27,7 +27,7 @@ public class Main {
 
         // linked list
         LinkedList myLinkedList = new LinkedList(1);
-        myLinkedList.append(2);
+        //myLinkedList.append(2);
         myLinkedList.append(3);
         // 3 items - prints 123
 //        myLinkedList.printList();
@@ -42,7 +42,9 @@ public class Main {
         myLinkedList.printList();
 //        myLinkedList.removeFirstNode();
 //        myLinkedList.printList();
-        System.out.println(myLinkedList.getNode(2).value);
+        //System.out.println(myLinkedList.getNode(2).value);
+        myLinkedList.insert(2, 2);
+        myLinkedList.printList();
 
     }
 }
