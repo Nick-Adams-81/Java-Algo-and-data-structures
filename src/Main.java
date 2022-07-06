@@ -74,6 +74,8 @@ public class Main {
         myDLL.insert(2, 200);
         myDLL.printList();
         System.out.println(myDLL.get(2).value);
+        myDLL.removeNode(2);
+        myDLL.printList();
 
 
 
