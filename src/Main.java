@@ -42,6 +42,7 @@ public class Main {
         myLinkedList.getLength();
         myLinkedList.removeFirstNode();
         myLinkedList.printList();
+        System.out.println(myLinkedList.getNode(1).value);
 
 
     }
