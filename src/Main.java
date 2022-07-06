@@ -33,10 +33,13 @@ public class Main {
         myLinkedList.appendList(6);
         myLinkedList.appendList(7);
         myLinkedList.printList();
+        myLinkedList.getLength();
         myLinkedList.removeLastNode();
         myLinkedList.printList();
+        myLinkedList.getLength();
         myLinkedList.prependList(4);
         myLinkedList.printList();
+        myLinkedList.getLength();
 
 
     }

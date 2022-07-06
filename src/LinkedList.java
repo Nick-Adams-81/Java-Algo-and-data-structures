@@ -29,6 +29,10 @@ public class LinkedList {
         }
     }
 
+    public void getLength() {
+        System.out.println("Length: " + length);
+    }
+
     public void appendList(int value) {
         Node newNode = new Node(value);
         if(length == 0) {
@@ -70,4 +74,6 @@ public class LinkedList {
         }
         length++;
     }
+
+
 }
