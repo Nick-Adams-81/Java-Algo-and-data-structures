@@ -28,6 +28,10 @@ public class Main {
         // linked list
 
 
+        LinkedList myLinkedList = new LinkedList(5);
+        myLinkedList.printList();
+        myLinkedList.appendList(6);
+        myLinkedList.printList();
 
 
     }
