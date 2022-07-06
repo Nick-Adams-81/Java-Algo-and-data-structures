@@ -35,6 +35,8 @@ public class Main {
         myLinkedList.printList();
         myLinkedList.removeLastNode();
         myLinkedList.printList();
+        myLinkedList.prependList(4);
+        myLinkedList.printList();
 
 
     }
