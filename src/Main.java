@@ -52,7 +52,10 @@ public class Main {
 //        myLinkedList.printList();
 //        myLinkedList.reverseList();
 //        myLinkedList.printList();
-
+        myDLL.appendList(2);
+        myDLL.getHead();
+        myDLL.getTail();
+        myDLL.getLength();
 
 
 
