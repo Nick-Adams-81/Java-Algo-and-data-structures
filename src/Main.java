@@ -53,7 +53,7 @@ public class Main {
 //        myLinkedList.reverseList();
 //        myLinkedList.printList();
         myDLL.appendList(2);
-        myDLL.appendList(3);
+        myDLL.appendList(4);
         myDLL.getHead();
         myDLL.getTail();
         myDLL.getLength();
@@ -61,16 +61,19 @@ public class Main {
 //        System.out.println(myDLL.removeLast().value);
 //        System.out.println(myDLL.removeLast().value);
         myDLL.prependList(0);
-        myDLL.getHead();
-        myDLL.getTail();
-        myDLL.getLength();
+//        myDLL.getHead();
+//        myDLL.getTail();
+//        myDLL.getLength();
         //myDLL.removeFirst();
 //        myDLL.getHead();
 //        myDLL.getTail();
 //        myDLL.getLength();
-        System.out.println(myDLL.get(2).value);
-        myDLL.setNode(2, 20);
+
+        myDLL.setNode(2, 30);
         myDLL.printList();
+        myDLL.insert(2, 200);
+        myDLL.printList();
+        System.out.println(myDLL.get(2).value);
 
 
 

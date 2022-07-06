@@ -123,4 +123,26 @@ public class DoublyLinkedList {
         }
         return false;
     }
+
+    public boolean insert(int index, int value) {
+        if(index < 0 || index > length) return false;
+        if(index == 0) {
+            prependList(value);
+            return true;
+        }
+        if(index == length) {
+            appendList(value);
+            return true;
+        }
+        Node newNode = new Node(value);
+        Node before = get(index -1);
+        Node after = before.next;
+        newNode.next = after;
+        newNode.prev = before;
+        before.next = newNode;
+        after.prev = newNode;
+        length++;
+        return true;
+
+    }
 }
