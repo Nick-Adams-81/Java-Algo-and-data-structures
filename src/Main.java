@@ -43,6 +43,8 @@ public class Main {
         myLinkedList.removeFirstNode();
         myLinkedList.printList();
         System.out.println(myLinkedList.getNode(1).value);
+        myLinkedList.insertNode(2, 9);
+        myLinkedList.printList();
 
 
     }

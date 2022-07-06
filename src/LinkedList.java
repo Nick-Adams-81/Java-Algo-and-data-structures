@@ -96,5 +96,25 @@ public class LinkedList {
         return temp;
     }
 
+    public boolean insertNode(int index, int value) {
+        if(index < 0 || index > length) return false;
+        if(index == 0) {
+            prependList(value);
+            return true;
+        }
+        if(index == length) {
+            appendList(value);
+            return true;
+        }
+        Node newNode = new Node(value);
+        Node temp = getNode(index -1);
+        newNode.next = temp.next;
+        temp.next = newNode;
+        length++;
+        return true;
+
+    }
+
+
 
 }
