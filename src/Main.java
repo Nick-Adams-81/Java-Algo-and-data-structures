@@ -64,10 +64,11 @@ public class Main {
         myDLL.getHead();
         myDLL.getTail();
         myDLL.getLength();
-        myDLL.removeFirst();
-        myDLL.getHead();
-        myDLL.getTail();
-        myDLL.getLength();
+        //myDLL.removeFirst();
+//        myDLL.getHead();
+//        myDLL.getTail();
+//        myDLL.getLength();
+        System.out.println(myDLL.get(2).value);
 
 
 
