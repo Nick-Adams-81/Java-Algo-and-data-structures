@@ -29,8 +29,11 @@ public class Main {
 
 
         LinkedList myLinkedList = new LinkedList(5);
-        myLinkedList.printList();
+//        myLinkedList.printList();
         myLinkedList.appendList(6);
+        myLinkedList.appendList(7);
+        myLinkedList.printList();
+        myLinkedList.removeLastNode();
         myLinkedList.printList();
 
 
