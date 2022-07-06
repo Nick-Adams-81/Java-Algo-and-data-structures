@@ -69,6 +69,9 @@ public class Main {
 //        myDLL.getTail();
 //        myDLL.getLength();
         System.out.println(myDLL.get(2).value);
+        myDLL.setNode(2, 20);
+        myDLL.printList();
+
 
 
 

@@ -22,6 +22,14 @@ public class DoublyLinkedList {
         length = 1;
     }
 
+    public void printList() {
+        Node temp = head;
+        while(temp != null) {
+            System.out.println(temp.value);
+            temp = temp.next;
+        }
+    }
+
     public void getHead() {
         System.out.println("Head: " + head.value);
     }
@@ -105,5 +113,14 @@ public class DoublyLinkedList {
             }
         }
         return temp;
+    }
+
+    public boolean setNode(int index, int value) {
+        Node temp = get(index);
+        if(temp != null) {
+            temp.value = value;
+            return true;
+        }
+        return false;
     }
 }
