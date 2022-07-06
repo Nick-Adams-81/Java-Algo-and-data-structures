@@ -57,10 +57,20 @@ public class Main {
         myDLL.getHead();
         myDLL.getTail();
         myDLL.getLength();
-        System.out.println(myDLL.removeLast().value);
-        System.out.println(myDLL.removeLast().value);
-        System.out.println(myDLL.removeLast().value);
-        System.out.println(myDLL.removeLast());
+//        System.out.println(myDLL.removeLast().value);
+//        System.out.println(myDLL.removeLast().value);
+//        System.out.println(myDLL.removeLast().value);
+        myDLL.prependList(0);
+        myDLL.getHead();
+        myDLL.getTail();
+        myDLL.getLength();
+        myDLL.removeFirst();
+        myDLL.getHead();
+        myDLL.getTail();
+        myDLL.getLength();
+
+
+
 
 
 
