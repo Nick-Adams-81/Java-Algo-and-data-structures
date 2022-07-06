@@ -27,24 +27,7 @@ public class Main {
 
         // linked list
 
-        LinkedList myLinkedList = new LinkedList(1);
-        myLinkedList.appendList(2);
-        myLinkedList.appendList(3);
 
-        myLinkedList.prependList(0);
-
-
-        myLinkedList.printList();
-        myLinkedList.getLength();
-        System.out.println(myLinkedList.getNode(3).value);
-        myLinkedList.insertNode(4, 4);
-        myLinkedList.printList();
-        myLinkedList.set(0, 13);
-        myLinkedList.printList();
-        myLinkedList.remove(4);
-        myLinkedList.printList();
-        myLinkedList.reverseList();
-        myLinkedList.printList();
 
 
     }
