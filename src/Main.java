@@ -40,14 +40,16 @@ public class Main {
         myLinkedList.prependList(4);
         myLinkedList.printList();
         myLinkedList.getLength();
-        myLinkedList.removeFirstNode();
-        myLinkedList.printList();
-        System.out.println(myLinkedList.getNode(1).value);
-        myLinkedList.insertNode(2, 9);
-        myLinkedList.printList();
-        myLinkedList.set(2, 8);
-        myLinkedList.printList();
-        myLinkedList.removeNode(2);
+        //myLinkedList.removeFirstNode();
+//        myLinkedList.printList();
+//        System.out.println(myLinkedList.getNode(1).value);
+//        myLinkedList.insertNode(2, 9);
+//        myLinkedList.printList();
+//        myLinkedList.set(2, 8);
+//        myLinkedList.printList();
+//        myLinkedList.removeNode(2);
+//        myLinkedList.printList();
+        myLinkedList.reverseList();
         myLinkedList.printList();
 
 
