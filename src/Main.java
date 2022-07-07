@@ -56,6 +56,8 @@ public class Main {
         System.out.println(myDLL.get(4).value);
         myDLL.set(4, 40);
         myDLL.printList();
+        myDLL.insertNode(5, 5);
+        myDLL.printList();
 
 
 
