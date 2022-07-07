@@ -58,6 +58,8 @@ public class Main {
         myDLL.printList();
         myDLL.insertNode(5, 5);
         myDLL.printList();
+        myDLL.removeNode(5);
+        myDLL.printList();
 
 
 
