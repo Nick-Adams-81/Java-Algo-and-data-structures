@@ -25,11 +25,11 @@ public class DoublyLinkedList {
 
     public void printList() {
         Node newNode = head;
-        while(newNode != null) {
+        while (newNode != null) {
             System.out.println(newNode.value);
             newNode = newNode.next;
         }
-        if(tail.next == null) System.out.println("");
+        if (tail.next == null) System.out.println("");
 
     }
 
@@ -39,7 +39,7 @@ public class DoublyLinkedList {
 
     public void append(int value) {
         Node newNode = new Node(value);
-        if(length == 0) {
+        if (length == 0) {
             head = newNode;
             tail = newNode;
         } else {
@@ -51,17 +51,34 @@ public class DoublyLinkedList {
     }
 
     public Node removeLast() {
-        if(length == 0) return null;
-        if(length == 1) {
+        if (length == 0) return null;
+        Node temp = tail;
+        if (length == 1) {
             head = null;
             tail = null;
+        } else {
+            tail = tail.prev;
+            tail.next = null;
+            temp.prev = null;
         }
-        Node temp = tail;
-        tail = tail.prev;
-        tail.next = null;
-        temp.prev = null;
         length--;
         return temp;
 
     }
+
+
+    public void prepend(int value) {
+        Node newNode = new Node(value);
+        if(length == 0) {
+            head = newNode;
+            tail = newNode;
+        } else {
+            newNode.next = head;
+            head.prev = newNode;
+            head = newNode;
+        }
+        length++;
+     }
+
+
 }

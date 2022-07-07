@@ -40,6 +40,10 @@ public class Main {
         myDLL.append(2);
         myDLL.printList();
         myDLL.getLength();
+        myDLL.removeLast();
+        myDLL.printList();
+        myDLL.prepend(0);
+        myDLL.printList();
 
 
 
