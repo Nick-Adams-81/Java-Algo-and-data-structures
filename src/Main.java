@@ -39,6 +39,8 @@ public class Main {
 
         myDLL.append(2);
         myDLL.printList();
+        myDLL.getLength();
+
 
 
 
