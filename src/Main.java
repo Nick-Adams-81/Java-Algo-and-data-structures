@@ -44,6 +44,8 @@ public class Main {
         myDLL.printList();
         myDLL.prepend(0);
         myDLL.printList();
+        myDLL.removeFirst();
+        myDLL.printList();
 
 
 
