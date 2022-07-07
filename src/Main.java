@@ -30,52 +30,19 @@ public class Main {
 
         LinkedList myLinkedList = new LinkedList(5);
         DoublyLinkedList myDLL = new DoublyLinkedList(1);
+        myDLL.printList();
+
+
 //        myLinkedList.printList();
         myLinkedList.appendList(6);
         myLinkedList.appendList(7);
-//        myLinkedList.printList();
-//        myLinkedList.getLength();
-//        myLinkedList.removeLastNode();
-//        myLinkedList.printList();
-//        myLinkedList.getLength();
-//        myLinkedList.prependList(4);
-//        myLinkedList.printList();
-//        myLinkedList.getLength();
-//        myLinkedList.removeFirstNode();
-//        myLinkedList.printList();
-//        System.out.println(myLinkedList.getNode(1).value);
-//        myLinkedList.insertNode(2, 9);
-//        myLinkedList.printList();
-//        myLinkedList.set(2, 8);
-//        myLinkedList.printList();
-//        myLinkedList.removeNode(2);
-//        myLinkedList.printList();
-//        myLinkedList.reverseList();
-//        myLinkedList.printList();
-        myDLL.appendList(2);
-        myDLL.appendList(4);
-        myDLL.getHead();
-        myDLL.getTail();
-        myDLL.getLength();
-//        System.out.println(myDLL.removeLast().value);
-//        System.out.println(myDLL.removeLast().value);
-//        System.out.println(myDLL.removeLast().value);
-        myDLL.prependList(0);
-//        myDLL.getHead();
-//        myDLL.getTail();
-//        myDLL.getLength();
-        //myDLL.removeFirst();
-//        myDLL.getHead();
-//        myDLL.getTail();
-//        myDLL.getLength();
 
-        myDLL.setNode(2, 30);
+        myDLL.append(2);
         myDLL.printList();
-        myDLL.insert(2, 200);
-        myDLL.printList();
-        System.out.println(myDLL.get(2).value);
-        myDLL.removeNode(2);
-        myDLL.printList();
+
+
+
+
 
 
 
