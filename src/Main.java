@@ -46,8 +46,16 @@ public class Main {
         myDLL.printList();
         myDLL.removeFirst();
         myDLL.printList();
-        System.out.println(myDLL.removeFirst().value);
-        System.out.println(myDLL.removeFirst());
+        myDLL.prepend(0);
+        myDLL.append(2);
+        myDLL.append(3);
+        myDLL.append(4);
+        myDLL.printList();
+
+
+        System.out.println(myDLL.get(4).value);
+        myDLL.set(4, 40);
+        myDLL.printList();
 
 
 
