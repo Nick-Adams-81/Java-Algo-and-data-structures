@@ -46,6 +46,10 @@ public class Main {
         myDLL.printList();
         myDLL.removeFirst();
         myDLL.printList();
+        System.out.println(myDLL.removeFirst().value);
+        System.out.println(myDLL.removeFirst());
+
+
 
 
 
