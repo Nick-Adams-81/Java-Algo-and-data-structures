@@ -45,6 +45,7 @@ public class Main {
         myLinkedList.removeFirst();
         myLinkedList.printList();
         myLinkedList.printLength();
+        System.out.println(myLinkedList.get(1).value);
 
 
 //        myDLL.append(2);
