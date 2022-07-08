@@ -21,6 +21,12 @@ public class Main {
         System.out.println(myDLL.get(2).value);
         myDLL.set(2, 20);
         myDLL.print();
+        myDLL.insert(1, 99);
+        myDLL.print();
+        myDLL.insert(2, 100);
+        myDLL.print();
+        myDLL.remove(2);
+        myDLL.print();
 
 
 
