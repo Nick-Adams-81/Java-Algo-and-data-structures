@@ -12,7 +12,9 @@ public class Main {
         myDLL.append(2);
         myDLL.print();
         myDLL.getlength();
-        myDLL.removeLast();
+
+
+        myDLL.prepend(0);
         myDLL.print();
 
 
