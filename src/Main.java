@@ -31,6 +31,10 @@ public class Main {
         myLinkedList.printList();
         myLinkedList.printLength();
         myLinkedList.append(2);
+        myLinkedList.append(3);
+        myLinkedList.printList();
+        myLinkedList.printLength();
+        myLinkedList.removeLast();
         myLinkedList.printList();
         myLinkedList.printLength();
 //        DoublyLinkedList myDLL = new DoublyLinkedList(1);
