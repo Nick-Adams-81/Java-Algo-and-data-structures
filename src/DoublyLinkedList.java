@@ -67,11 +67,14 @@ public class DoublyLinkedList {
         if(length == 0) {
             head = newNode;
             tail = newNode;
+        } else {
+            newNode.next = head;
+            head.prev = newNode;
+            head = newNode;
         }
-        newNode.next = head;
-        head.prev = newNode;
-        head = newNode;
         length++;
     }
+
+
 
 }
