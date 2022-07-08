@@ -51,6 +51,10 @@ public class Main {
         myLinkedList.printList();
         myLinkedList.set(1, 10);
         myLinkedList.printList();
+        myLinkedList.remove(2);
+        myLinkedList.printList();
+        myLinkedList.reverseList();
+        myLinkedList.printList();
 
 
 //        myDLL.append(2);
