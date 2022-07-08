@@ -49,6 +49,8 @@ public class Main {
         myLinkedList.insertNode(1, 100);
         myLinkedList.insertNode(2, 101);
         myLinkedList.printList();
+        myLinkedList.set(1, 10);
+        myLinkedList.printList();
 
 
 //        myDLL.append(2);
