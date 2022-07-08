@@ -46,6 +46,9 @@ public class Main {
         myLinkedList.printList();
         myLinkedList.printLength();
         System.out.println(myLinkedList.get(1).value);
+        myLinkedList.insertNode(1, 100);
+        myLinkedList.insertNode(2, 101);
+        myLinkedList.printList();
 
 
 //        myDLL.append(2);
