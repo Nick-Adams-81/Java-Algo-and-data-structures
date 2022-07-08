@@ -19,6 +19,8 @@ public class Main {
 
         myDLL.print();
         System.out.println(myDLL.get(2).value);
+        myDLL.set(2, 20);
+        myDLL.print();
 
 
 
