@@ -16,6 +16,8 @@ public class Main {
 
         myDLL.prepend(0);
         myDLL.print();
+        myDLL.removeFirst();
+        myDLL.print();
 
 
 
