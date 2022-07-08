@@ -3,7 +3,6 @@
 public class Main {
 
 
-
     // main method
     public static void main(String[] args) {
 
@@ -28,14 +27,11 @@ public class Main {
         // linked list
 
 
-        LinkedList myLinkedList = new LinkedList(5);
+        LinkedList myLinkedList = new LinkedList(1);
+        myLinkedList.printList();
         DoublyLinkedList myDLL = new DoublyLinkedList(1);
         myDLL.printList();
 
-
-//        myLinkedList.printList();
-        myLinkedList.appendList(6);
-        myLinkedList.appendList(7);
 
         myDLL.append(2);
         myDLL.printList();
@@ -60,20 +56,6 @@ public class Main {
         myDLL.printList();
         myDLL.removeNode(5);
         myDLL.printList();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     }
