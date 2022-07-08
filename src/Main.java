@@ -42,6 +42,9 @@ public class Main {
         myLinkedList.prependList(0);
         myLinkedList.printList();
         myLinkedList.printLength();
+        myLinkedList.removeFirst();
+        myLinkedList.printList();
+        myLinkedList.printLength();
 
 
 //        myDLL.append(2);
