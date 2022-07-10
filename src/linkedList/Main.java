@@ -17,6 +17,7 @@ public class Main {
 //        myLinkedList.getHead();
         myLinkedList.removeFirst();
         myLinkedList.printList();
+        System.out.println(myLinkedList.get(0).value);
 
 
     }
