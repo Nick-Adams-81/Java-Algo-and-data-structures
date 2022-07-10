@@ -22,6 +22,9 @@ public class Main {
         myLinkedList.insert(2, 120);
         myLinkedList.printList();
 
+       myLinkedList.set(1, 23);
+       myLinkedList.printList();
+
 
 
 
