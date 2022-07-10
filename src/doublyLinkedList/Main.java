@@ -27,6 +27,8 @@ public class Main {
         myDll.insert(2, 123);
         myDll.printList();
         myDll.getLength();
+        myDll.remove(2);
+        myDll.printList();
 
     }
 }
