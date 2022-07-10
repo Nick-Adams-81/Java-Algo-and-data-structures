@@ -24,6 +24,10 @@ public class Main {
 
        myLinkedList.set(1, 23);
        myLinkedList.printList();
+       myLinkedList.remove(1);
+       myLinkedList.printList();
+       myLinkedList.remove(1);
+       myLinkedList.printList();
 
 
 
