@@ -6,6 +6,10 @@ public class Main {
         myQueue.printQueue();
         myQueue.getFirst();
         myQueue.getLast();
+        myQueue.enqueue(2);
+        myQueue.printQueue();
+        myQueue.getFirst();
+        myQueue.getLast();
 
 
     }
