@@ -28,6 +28,11 @@ public class Main {
        myLinkedList.printList();
        myLinkedList.remove(1);
        myLinkedList.printList();
+       myLinkedList.append(3);
+       myLinkedList.append(4);
+       myLinkedList.printList();
+       myLinkedList.reverseList();
+       myLinkedList.printList();
 
 
 
