@@ -28,9 +28,12 @@ public class LinkedList {
             System.out.println(temp.value);
             temp = temp.next;
         }
+        if(tail.next == null) {
+            System.out.println("");
+        }
     }
 
-    public void getHeasd() {
+    public void getHead() {
         System.out.println("Head: " + head.value);
     }
 
@@ -49,6 +52,27 @@ public class LinkedList {
         }
         length++;
     }
+
+    public Node removeLast() {
+        if(length == 0) return null;
+        Node temp = head;
+        Node prev = head;
+        while(temp.next != null) {
+            prev = temp;
+            temp = temp.next;
+        }
+        tail = prev;
+        prev.next = null;
+        length--;
+        if(length == 0) {
+            head = null;
+            tail = null;
+        }
+        return temp;
+
+    }
+
+
 
 
 }
