@@ -30,5 +30,25 @@ public class LinkedList {
         }
     }
 
+    public void getHeasd() {
+        System.out.println("Head: " + head.value);
+    }
+
+    public void getTail() {
+        System.out.println("Tail: " + tail.value);
+    }
+
+    public void append(int value) {
+        Node newNode = new Node(value);
+        if(length == 0) {
+            head = newNode;
+            tail = newNode;
+        } else {
+            tail.next = newNode;
+            tail = newNode;
+        }
+        length++;
+    }
+
 
 }
