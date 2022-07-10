@@ -58,5 +58,4 @@ public class Queue {
         length--;
         return temp;
     }
-
 }
