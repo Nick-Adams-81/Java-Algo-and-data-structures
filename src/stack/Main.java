@@ -7,6 +7,10 @@ public class Main {
         myStack.printStack();
         myStack.printHeight();
         myStack.printTop();
+        myStack.push(0);
+        myStack.printStack();
+        myStack.printHeight();
+        myStack.printTop();
 
     }
 }
