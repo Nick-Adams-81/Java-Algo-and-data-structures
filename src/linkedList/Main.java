@@ -16,8 +16,13 @@ public class Main {
         myLinkedList.printList();
 //        myLinkedList.getHead();
         myLinkedList.removeFirst();
+//        myLinkedList.printList();
+
+        myLinkedList.insert(1, 119);
+        myLinkedList.insert(2, 120);
         myLinkedList.printList();
-        System.out.println(myLinkedList.get(0).value);
+
+
 
 
     }
