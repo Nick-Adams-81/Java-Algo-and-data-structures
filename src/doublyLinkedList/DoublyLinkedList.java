@@ -2,8 +2,8 @@ package doublyLinkedList;
 
 public class DoublyLinkedList {
 
-    Node head;
-    Node tail;
+    private Node head;
+    private Node tail;
     int length;
 
     class Node {
