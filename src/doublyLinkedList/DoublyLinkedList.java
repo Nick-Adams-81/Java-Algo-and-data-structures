@@ -19,7 +19,7 @@ public class DoublyLinkedList {
         Node newNode = new Node(value);
         head = newNode;
         tail = newNode;
-        length = 0;
+        length = 1;
     }
 
     public void printList() {
@@ -27,6 +27,9 @@ public class DoublyLinkedList {
         while(temp != null) {
             System.out.println(temp.value);
             temp = temp.next;
+        }
+        if(tail.next == null) {
+            System.out.println("");
         }
     }
 
@@ -38,16 +41,34 @@ public class DoublyLinkedList {
         System.out.println("Tail: " + tail);
     }
 
+    public void getLength() {
+        System.out.println("Length: " + length);
+    }
+
     public void append(int value) {
          Node newNode = new Node(value);
          if(length == 0) {
              head = newNode;
              tail = newNode;
          } else {
-             newNode.prev = tail;
              tail.next = newNode;
+             newNode.prev = tail;
              tail = newNode;
          }
          length++;
+    }
+
+    public Node removeLast() {
+        if(length == 0) return null;
+        if(length == 1) {
+            head = null;
+            tail = null;
+        }
+        Node temp = tail;
+        tail = tail.prev;
+        temp.prev = null;
+        tail.next = null;
+        length--;
+        return temp;
     }
 }
