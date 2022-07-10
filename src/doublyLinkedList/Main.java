@@ -5,5 +5,7 @@ public class Main {
 
         DoublyLinkedList myDll = new DoublyLinkedList(1);
         myDll.printList();
+        myDll.append(2);
+        myDll.printList();
     }
 }
