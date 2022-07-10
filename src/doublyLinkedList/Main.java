@@ -17,5 +17,11 @@ public class Main {
         myDll.getLength();
         myDll.removeFirst();
         myDll.printList();
+        myDll.append(3);
+        myDll.append(4);
+        myDll.append(5);
+        myDll.printList();
+        System.out.println(myDll.get(4).value);
+
     }
 }
