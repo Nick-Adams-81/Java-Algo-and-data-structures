@@ -15,5 +15,7 @@ public class Main {
         myDll.prepend(0);
         myDll.printList();
         myDll.getLength();
+        myDll.removeFirst();
+        myDll.printList();
     }
 }
