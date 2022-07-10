@@ -24,6 +24,9 @@ public class Main {
         System.out.println(myDll.get(4).value);
         myDll.set(5, 500);
         myDll.printList();
+        myDll.insert(2, 123);
+        myDll.printList();
+        myDll.getLength();
 
     }
 }
