@@ -10,6 +10,7 @@ public class Main {
         System.out.println("Root = " + myBST.root.value);
         System.out.println("Right child = " + myBST.root.right.value);
         System.out.println("Left child = " + myBST.root.left.value);
+        System.out.println(myBST.contains(24));
 
     }
 }
