@@ -14,6 +14,13 @@ public class BinarySearchTree {
         }
     }
 
+    public Node minValueNode(Node currentNode) {
+        while(currentNode.left != null) {
+            currentNode = currentNode.left;
+        }
+        return currentNode;
+    }
+
     public boolean insert(int value) {
         Node newNode = new Node(value);
         if(root == null) {
