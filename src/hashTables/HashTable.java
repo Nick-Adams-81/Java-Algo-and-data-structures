@@ -22,12 +22,13 @@ public class HashTable {
 
     public void printTable() {
         for(int i = 0; i < dataMap.length; i++) {
-            System.out.println(i + ":");
             Node temp = dataMap[i];
-            while(temp != null) {
-                System.out.println(i + ":  {" + temp.key + "= " + temp.value + "}");
-                temp = temp.next;
-            }
+                while(temp != null) {
+                    System.out.println(i + ":  {" + temp.key + "= " + temp.value + "}");
+                    temp = temp.next;
+                }
+
+
         }
     }
 
@@ -54,6 +55,8 @@ public class HashTable {
             temp.next = newNode;
         }
     }
+
+
 
 
 
