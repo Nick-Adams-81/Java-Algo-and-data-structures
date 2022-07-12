@@ -22,7 +22,7 @@ public class BinarySearchTree {
             return true;
         }
         Node temp = root;
-        while(temp != null) {
+        while(true) {
             if(newNode.value == temp.value) return false;
             if(newNode.value < temp.value) {
                 if(temp.left == null) {
@@ -36,6 +36,19 @@ public class BinarySearchTree {
                     return true;
                 }
                 temp = temp.right;
+            }
+        }
+    }
+
+    public boolean contains(int value) {
+        Node temp = root;
+        while(temp != null) {
+            if(value < temp.value) {
+                temp = temp.left;
+            } else if(value > temp.value) {
+                temp = temp.right;
+            } else {
+                return true;
             }
         }
         return false;
