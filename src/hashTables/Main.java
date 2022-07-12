@@ -12,6 +12,7 @@ public class Main {
       myHashTable.set("screws", 55);
       myHashTable.printTable();
       System.out.println(myHashTable.get("bolts"));
+        System.out.println(myHashTable.keys());
 
     }
 
