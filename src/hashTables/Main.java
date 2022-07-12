@@ -13,6 +13,7 @@ public class Main {
         myHashTable.printTable();
         System.out.println(myHashTable.get("screws"));
         System.out.println(myHashTable.get("nails"));
+        System.out.println(myHashTable.keys());
 
     }
 
