@@ -20,6 +20,8 @@ public class Main {
         myDLL.printList();
         myDLL.insert(2, 500);
         myDLL.printList();
+        myDLL.remove(1);
+        myDLL.printList();
 
 
     }
