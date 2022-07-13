@@ -16,6 +16,8 @@ public class Main {
         myDLL.removeFirst();
         myDLL.printList();
         System.out.println(myDLL.get(1).value);
+        myDLL.set(1, 30);
+        myDLL.printList();
 
 
     }
