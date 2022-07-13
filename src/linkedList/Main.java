@@ -49,6 +49,9 @@ public class Main {
         myLinkedList.printHead();
         myLinkedList.printTail();
         myLinkedList.printLength();
+        myLinkedList.printList();
+        myLinkedList.reverse();
+        myLinkedList.printList();
 
 
 
