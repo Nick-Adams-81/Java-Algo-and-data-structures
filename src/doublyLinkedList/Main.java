@@ -22,6 +22,9 @@ public class Main {
         myDLL.printList();
         myDLL.remove(1);
         myDLL.printList();
+        myDLL.printLength();
+
+
 
 
     }
