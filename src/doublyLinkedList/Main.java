@@ -13,6 +13,9 @@ public class Main {
         myDLL.append(2);
         myDLL.prepend(0);
         myDLL.printList();
+        myDLL.removeFirst();
+        myDLL.printList();
+
 
     }
 }
