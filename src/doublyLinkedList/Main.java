@@ -18,6 +18,8 @@ public class Main {
         System.out.println(myDLL.get(1).value);
         myDLL.set(1, 30);
         myDLL.printList();
+        myDLL.insert(2, 500);
+        myDLL.printList();
 
 
     }
