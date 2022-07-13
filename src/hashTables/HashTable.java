@@ -25,11 +25,23 @@ public class HashTable {
             System.out.println(i + ":");
             Node temp = dataMap[i];
             while(temp != null) {
-                System.out.println(" { " + temp.key + ": " + temp.value + " }");
+                System.out.println(i + ":  { " + temp.key + ": " + temp.value + " }");
                 temp = temp.next;
             }
         }
     }
+
+    private int hash(String key) {
+        int hash = 0;
+        char[] keyChars = key.toCharArray();
+        for(int i = 0; i < keyChars.length; i++) {
+            int asciiVal = keyChars[i];
+            hash = (hash + asciiVal * 23) % dataMap.length;
+        }
+        return hash;
+    }
+
+
 
 
 }
