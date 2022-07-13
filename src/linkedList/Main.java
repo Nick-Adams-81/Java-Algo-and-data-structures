@@ -38,6 +38,12 @@ public class Main {
         myLinkedList.printTail();
         myLinkedList.printLength();
 
+        myLinkedList.set(3, 50);
+        myLinkedList.printList();
+        myLinkedList.printHead();
+        myLinkedList.printTail();
+        myLinkedList.printLength();
+
 
 
 
