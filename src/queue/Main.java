@@ -21,5 +21,13 @@ public class Main {
         myQueue.printLast();
         myQueue.printLength();
 
+        myQueue.dequeue();
+        myQueue.printQueue();
+        myQueue.printFirst();
+        myQueue.printLast();
+        myQueue.printLength();
+
+
+
     }
 }
