@@ -31,6 +31,16 @@ public class Main {
         myLinkedList.printHead();
         myLinkedList.printTail();
         myLinkedList.getLength();
+        myLinkedList.append(2);
+        myLinkedList.append(3);
+        myLinkedList.append(4);
+        System.out.println(myLinkedList.get(2).value);
+
+        myLinkedList.insert(2, 20);
+        myLinkedList.printList();
+        myLinkedList.printHead();
+        myLinkedList.printTail();
+        myLinkedList.getLength();
 
 
     }
