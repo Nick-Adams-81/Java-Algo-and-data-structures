@@ -13,5 +13,12 @@ public class Main {
         myLinkedList.printHead();
         myLinkedList.printTail();
         myLinkedList.getLength();
+
+        myLinkedList.removeLast();
+        myLinkedList.printList();
+        myLinkedList.printHead();
+        myLinkedList.printTail();
+        myLinkedList.getLength();
+
     }
 }
