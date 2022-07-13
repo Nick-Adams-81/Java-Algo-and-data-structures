@@ -54,6 +54,9 @@ public class Main {
         myLinkedList.printTail();
         myLinkedList.getLength();
 
+        myLinkedList.reverse();
+        myLinkedList.printList();
+
 
 
 
