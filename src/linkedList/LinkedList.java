@@ -2,9 +2,9 @@ package linkedList;
 
 public class LinkedList {
 
-    Node head;
-    Node tail;
-    int length;
+    private Node head;
+    private Node tail;
+    private int length;
 
     class Node {
         int value;
