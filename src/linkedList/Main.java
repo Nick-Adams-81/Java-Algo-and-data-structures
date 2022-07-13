@@ -31,6 +31,13 @@ public class Main {
         myLinkedList.printLength();
 
         System.out.println(myLinkedList.get(2).value);
+        myLinkedList.insert(3, 500);
+
+        myLinkedList.printList();
+        myLinkedList.printHead();
+        myLinkedList.printTail();
+        myLinkedList.printLength();
+
 
 
 
