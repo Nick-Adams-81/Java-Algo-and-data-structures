@@ -44,6 +44,9 @@ public class Main {
         myDLL.insert(1, 500);
         myDLL.printList();
 
+        myDLL.remove(1);
+        myDLL.printList();
+
 
 
     }
