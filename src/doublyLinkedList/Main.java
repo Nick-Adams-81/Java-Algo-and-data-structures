@@ -35,7 +35,11 @@ public class Main {
         myDLL.append(5);
         myDLL.printList();
 
+
         System.out.println(myDLL.get(4).value);
+        System.out.println("");
+        myDLL.set(3, 44);
+        myDLL.printList();
 
 
 
