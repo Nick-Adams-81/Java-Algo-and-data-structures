@@ -43,6 +43,8 @@ public class Main {
         myDLL.printLength();
 
         System.out.println(myDLL.get(4).value);
+        myDLL.set(5, 10);
+        myDLL.printList();
 
     }
 }
