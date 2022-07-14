@@ -10,5 +10,7 @@ public class Main {
         myBST.printRoot();
         myBST.printRightChild();
         myBST.printLeftChild();
+
+        System.out.println(myBST.contains(90));
     }
 }
