@@ -9,5 +9,11 @@ public class Main {
         myDLL.printTail();
         myDLL.printLength();
 
+        myDLL.append(2);
+        myDLL.printList();
+        myDLL.printHead();
+        myDLL.printTail();
+        myDLL.printLength();
+
     }
 }
