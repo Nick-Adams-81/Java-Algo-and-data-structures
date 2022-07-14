@@ -41,6 +41,9 @@ public class Main {
         myDLL.set(3, 44);
         myDLL.printList();
 
+        myDLL.insert(1, 500);
+        myDLL.printList();
+
 
 
     }
