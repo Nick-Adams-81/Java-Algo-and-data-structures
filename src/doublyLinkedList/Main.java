@@ -30,6 +30,12 @@ public class Main {
         myDLL.printTail();
         myDLL.getLength();
         myDLL.printList();
+        myDLL.append(3);
+        myDLL.append(4);
+        myDLL.append(5);
+        myDLL.printList();
+
+        System.out.println(myDLL.get(4).value);
 
 
 
