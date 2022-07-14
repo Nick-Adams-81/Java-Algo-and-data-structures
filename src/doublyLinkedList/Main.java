@@ -28,5 +28,11 @@ public class Main {
         myDLL.printTail();
         myDLL.printLength();
 
+        myDLL.removeFirst();
+        myDLL.printList();
+        myDLL.printHead();
+        myDLL.printTail();
+        myDLL.printLength();
+
     }
 }
