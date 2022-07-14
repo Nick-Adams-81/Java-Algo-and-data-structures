@@ -88,15 +88,32 @@ public class DoublyLinkedList {
 
 
     public Node removeFirst() {
-        if(length == 0) return null;
+        if (length == 0) return null;
         Node temp = head;
         head = head.next;
         temp.next = null;
         head.prev = null;
         length--;
-        if(length == 0) {
+        if (length == 0) {
             tail = null;
         }
+        return temp;
+    }
+
+    public Node get(int index) {
+        if (index < 0 || index >= length) return null;
+        Node temp = head;
+        if(index < length / 2) {
+            for (int i = 0; i < index; i++) {
+                temp = temp.next;
+            }
+        } else {
+            temp = tail;
+            for(int i = length -1; i > index; i--) {
+                temp = temp.prev;
+            }
+        }
+
         return temp;
     }
 
