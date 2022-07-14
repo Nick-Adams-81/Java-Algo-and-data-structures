@@ -12,6 +12,11 @@ public class Main {
         myStack.printStack();
         myStack.printTop();
         myStack.getHeight();
+        myStack.pop();
+        myStack.printStack();
+        myStack.printTop();
+        myStack.getHeight();
+
 
 
     }
