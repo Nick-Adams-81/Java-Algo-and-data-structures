@@ -7,6 +7,11 @@ public class Main {
 
         HashTable myHashTable = new HashTable();
         myHashTable.printTable();
+        myHashTable.set("hammer", 25);
+        myHashTable.set("nails", 15);
+        myHashTable.set("washers", 10);
+        myHashTable.set("screws", 35);
+        myHashTable.printTable();
 
     }
 
