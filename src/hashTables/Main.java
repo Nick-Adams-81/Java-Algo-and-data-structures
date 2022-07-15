@@ -6,6 +6,9 @@ public class Main {
 
         HashTable myHash = new HashTable();
         myHash.printTable();
+        myHash.set("hammer", 50);
+        myHash.set("nails", 10);
+        myHash.printTable();
 
     }
 
