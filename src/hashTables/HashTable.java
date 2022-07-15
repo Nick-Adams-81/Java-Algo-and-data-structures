@@ -1,6 +1,7 @@
 package hashTables;
 
 
+import java.util.ArrayList;
 
 public class HashTable {
 
@@ -26,7 +27,7 @@ public class HashTable {
         for(int i = 0; i < dataMap.length; i++) {
             Node temp = dataMap[i];
             while(temp != null) {
-                System.out.println(i + ": " + temp.key + ": " + temp.value);
+                System.out.println(i + ": { " + temp.key + ": " + temp.value + " }");
                 temp = temp.next;
             }
         }
@@ -70,6 +71,19 @@ public class HashTable {
         }
         return 0;
     }
+
+    public ArrayList keys() {
+        ArrayList<String> allKeys = new ArrayList<>();
+        for(int i = 0; i < dataMap.length; i++) {
+            Node temp = dataMap[i];
+            while(temp != null) {
+                allKeys.add(temp.key);
+                temp = temp.next;
+            }
+        }
+        return allKeys;
+    }
+
 
 
 

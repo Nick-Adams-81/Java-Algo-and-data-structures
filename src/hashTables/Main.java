@@ -14,6 +14,8 @@ public class Main {
         myHashTable.printTable();
         System.out.println(myHashTable.get("hammer"));
 
+        System.out.println(myHashTable.keys());
+
     }
 
 
