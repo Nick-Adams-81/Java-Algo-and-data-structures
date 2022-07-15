@@ -27,7 +27,10 @@ public class BinarySearchTree {
 
     public boolean insert(int value) {
         Node newNode = new Node(value);
-        if (root == null) root = newNode;
+        if (root == null) {
+            root = newNode;
+            return true;
+        }
         Node temp = root;
         while(true) {
             if(newNode.value == temp.value) return false;
@@ -45,7 +48,6 @@ public class BinarySearchTree {
                 temp = temp.right;
             }
         }
-
     }
 
     public boolean contains(int value) {
