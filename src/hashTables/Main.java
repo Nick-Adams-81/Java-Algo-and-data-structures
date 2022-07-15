@@ -14,6 +14,7 @@ public class Main {
         myHash.set("tiles", 120);
         myHash.printTable();
         System.out.println(myHash.get("tiles"));
+        System.out.println(myHash.keys());
 
     }
 
