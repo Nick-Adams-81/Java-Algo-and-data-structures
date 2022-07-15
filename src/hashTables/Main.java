@@ -12,6 +12,7 @@ public class Main {
         myHashTable.set("washers", 10);
         myHashTable.set("screws", 35);
         myHashTable.printTable();
+        System.out.println(myHashTable.get("hammer"));
 
     }
 
