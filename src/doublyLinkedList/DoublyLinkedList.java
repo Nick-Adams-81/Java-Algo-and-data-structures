@@ -101,7 +101,7 @@ public class DoublyLinkedList {
     }
 
     public Node get(int index) {
-        if (index < 0 || index > length - 1) return null;
+        if (index < 0 || index >= length) return null;
         Node temp = head;
         if (index < length / 2) {
             for (int i = 0; i < index; i++) {
