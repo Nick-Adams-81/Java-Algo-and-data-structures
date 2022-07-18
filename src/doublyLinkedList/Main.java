@@ -50,6 +50,13 @@ public class Main {
         myDLL.printTail();
         myDLL.printLength();
 
+        myDLL.insert(2, 2000);
+
+        myDLL.printList();
+        myDLL.printHead();
+        myDLL.printTail();
+        myDLL.printLength();
+
 
     }
 }
