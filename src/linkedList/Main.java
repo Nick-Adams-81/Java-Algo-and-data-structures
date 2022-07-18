@@ -56,6 +56,18 @@ public class Main {
         myLinkedList.printTail();
         myLinkedList.printLength();
 
+        myLinkedList.append(3);
+        myLinkedList.printList();
+        myLinkedList.printHead();
+        myLinkedList.printTail();
+        myLinkedList.printLength();
+
+        myLinkedList.reverse();
+        myLinkedList.printList();
+        myLinkedList.printHead();
+        myLinkedList.printTail();
+        myLinkedList.printLength();
+
 
 
 
