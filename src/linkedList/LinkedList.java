@@ -112,7 +112,7 @@ public class LinkedList {
             prepend(value);
             return true;
         }
-        if(index == length -1) {
+        if(index == length) {
             append(value);
             return true;
         }
@@ -125,6 +125,15 @@ public class LinkedList {
     }
 
 
+    public boolean set(int index, int value) {
+        if(index < 0 || index >= length) return false;
+        Node temp = get(index);
+        if(temp != null) {
+            temp.value = value;
+            return true;
+        }
+        return false;
+    }
 
 
 
