@@ -10,6 +10,13 @@ public class Main {
         myQueue.printLength();
 
         myQueue.enqueue(2);
+        myQueue.enqueue(3);
+        myQueue.printQueue();
+        myQueue.printFirst();
+        myQueue.printLast();
+        myQueue.printLength();
+
+        myQueue.dequeue();
         myQueue.printQueue();
         myQueue.printFirst();
         myQueue.printLast();
