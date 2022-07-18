@@ -8,5 +8,11 @@ public class Main {
         myQueue.printFirst();
         myQueue.printLast();
         myQueue.printLength();
+
+        myQueue.enqueue(2);
+        myQueue.printQueue();
+        myQueue.printFirst();
+        myQueue.printLast();
+        myQueue.printLength();
     }
 }
