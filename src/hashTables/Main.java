@@ -7,6 +7,10 @@ public class Main {
         HashTable myHash = new HashTable();
         myHash.printTable();
 
+        myHash.set("hammer", 100);
+        myHash.set("nails", 10);
+        myHash.printTable();
+
     }
 
 

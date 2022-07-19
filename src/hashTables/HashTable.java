@@ -4,8 +4,8 @@ package hashTables;
 
 public class HashTable {
 
-    Node[] dataMap;
-    int size = 7;
+    private Node[] dataMap;
+    private int size = 7;
 
 
     class Node {
@@ -24,7 +24,6 @@ public class HashTable {
 
     public void printTable() {
         for(int i = 0; i < dataMap.length; i++) {
-            System.out.println(i + ":");
             Node temp = dataMap[i];
             while(temp != null) {
                 System.out.println(i + ": { " + temp.key + ": " + temp.value + " }");
@@ -32,6 +31,32 @@ public class HashTable {
             }
         }
     }
+
+
+    private int hash(String key) {
+        int hash = 0;
+        char[] keyHash = key.toCharArray();
+        for(int i = 0; i < keyHash.length; i++) {
+            int asciiVal = keyHash[i];
+            hash = (hash + asciiVal * 23) % dataMap.length;
+        }
+        return hash;
+    }
+
+    public void set(String key, int value) {
+        int index = hash(key);
+        Node newNode = new Node(key, value);
+        if(dataMap[index] == null) {
+            dataMap[index] = newNode;
+        } else {
+            Node temp = dataMap[index];
+            while(temp.next != null) {
+                temp = temp.next;
+            }
+            temp.next = newNode;
+        }
+    }
+
 
 
 }
