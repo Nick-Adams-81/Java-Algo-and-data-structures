@@ -9,6 +9,7 @@ public class HashTable {
         String key;
         int value;
         Node next;
+
         Node(String key, int value) {
             this.key = key;
             this.value = value;
@@ -21,10 +22,9 @@ public class HashTable {
     }
 
     public void printTable() {
-        for(int i = 0; i < dataMap.length; i++) {
-            System.out.println(i + ": ");
+        for (int i = 0; i < dataMap.length; i++) {
             Node temp = dataMap[i];
-            while(temp != null) {
+            while (temp != null) {
                 System.out.println(i + ": " + "{ " + temp.key + ": " + temp.value + " }");
                 temp = temp.next;
             }
@@ -35,16 +35,26 @@ public class HashTable {
     private int hash(String key) {
         int hash = 0;
         char[] keyChars = key.toCharArray();
-        for(int i = 0; i < keyChars.length; i++) {
+        for (int i = 0; i < keyChars.length; i++) {
             int asciiVal = keyChars[i];
             hash = (hash + asciiVal * 23) % dataMap.length;
         }
         return hash;
     }
 
-
-
-
+    public void set(String key, int value) {
+        int index = hash(key);
+        Node newNode = new Node(key, value);
+        if(dataMap[index] == null) {
+            dataMap[index] = newNode;
+        } else {
+            Node temp = dataMap[index];
+            while(temp.next != null) {
+                temp = temp.next;
+            }
+            temp.next = newNode;
+         }
+    }
 
 
 }
