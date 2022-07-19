@@ -15,6 +15,8 @@ public class Main {
 
         System.out.println(myHash.get("nails"));
 
+        System.out.println(myHash.keys());
+
     }
 
 
