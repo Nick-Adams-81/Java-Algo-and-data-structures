@@ -12,6 +12,8 @@ public class Main {
         myHashTable.set("hammer", 50);
         myHashTable.printTable();
 
+        System.out.println(myHashTable.get("hammer"));
+
     }
 
 
