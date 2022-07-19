@@ -1,8 +1,5 @@
 package graphs;
 
-import hashTables.HashTable;
-
-import java.util.HashMap;
 
 public class Main {
     public static void main(String[] args) {
@@ -19,6 +16,9 @@ public class Main {
         myGraph.printGraph();
 
         myGraph.removeEdge("A", "B");
+        myGraph.printGraph();
+
+        myGraph.removeVertex("C");
         myGraph.printGraph();
 
 
