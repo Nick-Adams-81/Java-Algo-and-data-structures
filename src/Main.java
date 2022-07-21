@@ -17,8 +17,15 @@ public class Main {
         System.out.println("Three");
     }
 
+    public static int factorial(int n) {
+        if(n == 1) return 1;
+        return n * factorial(n -1);
+    }
+
     // main method
     public static void main(String[] args) {
         methodOne();
+        int myFac = factorial(4);
+        System.out.println(myFac);
     }
 }
