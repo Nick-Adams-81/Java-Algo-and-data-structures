@@ -15,5 +15,10 @@ public class Main {
         System.out.println(Arrays.toString(myArray2));
         SelectionSort.selectionSort(myArray2);
         System.out.println(Arrays.toString(myArray2));
+
+        int[] myArray3 = {18, 13, 17, 14, 16, 15};
+        System.out.println(Arrays.toString(myArray3));
+        InsertionSort.insertionSort(myArray3);
+        System.out.println(Arrays.toString(myArray3));
     }
 }
