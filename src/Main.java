@@ -2,10 +2,23 @@
 
 public class Main {
 
+    public static void methodOne() {
+        methodTwo();
+        System.out.println("One");
 
-    // main method for testing
+    }
+
+    public static void methodTwo() {
+        methodThree();
+        System.out.println("Two");
+    }
+
+    public static void methodThree() {
+        System.out.println("Three");
+    }
+
+    // main method
     public static void main(String[] args) {
-        System.out.println("test");
-
+        methodOne();
     }
 }
