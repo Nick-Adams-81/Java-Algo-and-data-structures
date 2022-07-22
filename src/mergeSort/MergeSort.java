@@ -1,8 +1,10 @@
 package mergeSort;
 
+import java.util.Arrays;
+
 public class MergeSort {
 
-    public static int[] merge(int[] arr1, int[] arr2) {
+    private static int[] merge(int[] arr1, int[] arr2) {
         int[] combined = new int[arr1.length + arr2.length];
         int index = 0;
         int i = 0;
@@ -30,4 +32,17 @@ public class MergeSort {
         }
         return combined;
     }
+
+
+    public static int[] mergeSort(int[] array) {
+        if(array.length == 1) return array;
+
+        int mid = array.length / 2;
+        int[] left = Arrays.copyOfRange(array, 0, mid);
+        int[] right = Arrays.copyOfRange(array, mid, array.length);
+
+        return merge(mergeSort(left), mergeSort(right));
+    }
+
+
 }
