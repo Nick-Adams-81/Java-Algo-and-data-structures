@@ -2,7 +2,6 @@ package basicSorts;
 
 public class InsertionSort {
 
-
     public static void insertionSort(int[] array) {
         for(int i = 1; i < array.length; i++) {
             int temp = array[i];
