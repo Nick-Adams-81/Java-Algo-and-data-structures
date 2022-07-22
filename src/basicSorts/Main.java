@@ -10,5 +10,10 @@ public class Main {
         System.out.println(Arrays.toString(myArr));
         BubbleSort.bubbleSort(myArr);
         System.out.println(Arrays.toString(myArr));
+
+        int[] myArr2 = {7, 10, 9, 12, 8, 11};
+        System.out.println(Arrays.toString(myArr2));
+        SelectionSort.selectionSort(myArr2);
+        System.out.println(Arrays.toString(myArr2));
     }
 }
