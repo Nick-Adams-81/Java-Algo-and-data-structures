@@ -32,4 +32,15 @@ public class MergeSort {
         }
         return combined;
     }
+
+    public static int[] mergeSort(int[] array) {
+        if(array.length == 1) return array;
+
+        int midpoint = array.length / 2;
+        int[] left = Arrays.copyOfRange(array, 0, midpoint);
+        int[] right = Arrays.copyOfRange(array, midpoint, array.length);
+
+        return merge(mergeSort(left), mergeSort(right));
+
+    }
 }
