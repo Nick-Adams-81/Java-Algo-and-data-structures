@@ -11,9 +11,7 @@ public class Main {
         int[] sortedArr2 = {1, 3, 5, 7, 10};
 
 
-        int[] sortedArr = MergeSort.mergeSort(arr1);
 
-        System.out.println(Arrays.toString(sortedArr));
 
 
 
