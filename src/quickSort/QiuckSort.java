@@ -20,7 +20,7 @@ public class QiuckSort {
         return swapIndex;
     }
 
-    public static void quickSortHelper(int[] array, int left, int right) {
+    private static void quickSortHelper(int[] array, int left, int right) {
         if(left < right) {
             int pivotIndex = pivot(array, left, right);
             quickSortHelper(array, left, pivotIndex - 1);
