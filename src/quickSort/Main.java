@@ -1,10 +1,15 @@
 package quickSort;
 
+import java.util.Arrays;
+
 public class Main {
 
     public static void main(String[] args) {
 
-        int[] myArr = {7, 2, 4, 1, 3, 6, 5};
+        int[] myArr = {2, 7, 5 ,1, 3, 6, 4};
+
+        QiuckSort.quickSort(myArr);
+        System.out.println(Arrays.toString(myArr));
 
     }
 }

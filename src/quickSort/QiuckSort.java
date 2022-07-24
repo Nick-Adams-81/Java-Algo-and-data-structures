@@ -19,4 +19,20 @@ public class QiuckSort {
         swap(array, pivotIndex, swapIndex);
         return swapIndex;
     }
+
+    public static void quickSortHelper(int[] array, int left, int right) {
+        if(left < right) {
+            int pivotIndex = pivot(array, left, right);
+            quickSortHelper(array, left, pivotIndex - 1);
+            quickSortHelper(array, pivotIndex + 1, right);
+        }
+    }
+
+    public static void quickSort(int[] array) {
+        quickSortHelper(array, 0, array.length -1);
+    }
+
+
+
+
 }
