@@ -1,6 +1,6 @@
 package quickSort;
 
-public class QiuckSort {
+public class QuickSort {
 
     private static void swap(int[] array, int firstIndex, int secondIndex) {
         int temp = array[firstIndex];

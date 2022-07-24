@@ -8,7 +8,7 @@ public class Main {
 
         int[] myArr = {7, 6, 5, 4, 3, 2, 1};
 
-        QiuckSort.quickSort(myArr);
+        QuickSort.quickSort(myArr);
         System.out.println(Arrays.toString(myArr));
 
     }
