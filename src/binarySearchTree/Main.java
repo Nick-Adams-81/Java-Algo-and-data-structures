@@ -18,5 +18,7 @@ public class Main {
         System.out.println(myBST.contains(50));
 
         System.out.println(myBST.BFS());
+
+        System.out.println(myBST.DFSPreOrder());
     }
 }
