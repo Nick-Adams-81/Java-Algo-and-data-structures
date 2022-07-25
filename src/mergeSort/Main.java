@@ -12,6 +12,7 @@ public class Main {
 
 
         System.out.println(Arrays.toString(MergeSort.mergeSort(arr1)));
+        System.out.println(Arrays.toString(arr1));
 
 
     }
