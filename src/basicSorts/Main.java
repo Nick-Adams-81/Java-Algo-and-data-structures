@@ -12,6 +12,8 @@ public class Main {
 
 
         int[] myArr2 = {7, 10, 9, 12, 8, 11};
+        SelectionSort.selectionSort(myArr2);
+        System.out.println(Arrays.toString(myArr2));
 
 
         int[] myArr3 = {18, 13, 17, 16, 14, 15};
