@@ -17,6 +17,8 @@ public class Main {
 
 
         int[] myArr3 = {18, 13, 17, 16, 14, 15};
+        InsertionSort.insertionSort(myArr3);
+        System.out.println(Arrays.toString(myArr3));
 
     }
 }
