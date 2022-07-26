@@ -7,6 +7,8 @@ public class Main {
     public static void main(String[] args) {
 
         int[] myArr = {5, 2, 6, 1, 3, 4};
+        BubbleSort.bubbleSort(myArr);
+        System.out.println(Arrays.toString(myArr));
 
 
         int[] myArr2 = {7, 10, 9, 12, 8, 11};
