@@ -23,6 +23,8 @@ public class Main {
 
         System.out.println(myBST.postOrderDFS());
 
+        System.out.println(myBST.inOrderDFS());
+
 
     }
 }
