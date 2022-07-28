@@ -8,6 +8,7 @@ public class Main {
         int[] arr = {5, 2, 1, 2, 1};
         ReverseInteger revInt = new ReverseInteger();
         PalindromeNumber numPal = new PalindromeNumber();
+        FactorialTrailingZeros trailingZeros = new FactorialTrailingZeros();
 
 
         SingleNumber singleNum = new SingleNumber();
@@ -15,6 +16,8 @@ public class Main {
         System.out.println(singleNum.advancedSingleNumber(arr));
         System.out.println(revInt.reverse(1234567899));
         System.out.println(numPal.numberPalindrome(12213));
+        System.out.println(trailingZeros.trailingZeros(125));
+
 
     }
 }
