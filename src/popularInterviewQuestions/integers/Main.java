@@ -9,6 +9,7 @@ public class Main {
         ReverseInteger revInt = new ReverseInteger();
         PalindromeNumber numPal = new PalindromeNumber();
         FactorialTrailingZeros trailingZeros = new FactorialTrailingZeros();
+        PowerOfXAndN myPow = new PowerOfXAndN();
 
 
         SingleNumber singleNum = new SingleNumber();
@@ -17,6 +18,7 @@ public class Main {
         System.out.println(revInt.reverse(1234567899));
         System.out.println(numPal.numberPalindrome(12213));
         System.out.println(trailingZeros.trailingZeros(125));
+        System.out.println(myPow.myPow(4, 3));
 
 
     }
