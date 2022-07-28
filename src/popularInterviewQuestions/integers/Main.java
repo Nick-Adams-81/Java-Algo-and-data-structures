@@ -1,4 +1,4 @@
-package popularInterviewQuestions.singleNumber;
+package popularInterviewQuestions.integers;
 
 public class Main {
 

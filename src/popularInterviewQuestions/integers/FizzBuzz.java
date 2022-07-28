@@ -1,4 +1,4 @@
-package popularInterviewQuestions.FizzBuzz;
+package popularInterviewQuestions.integers;
 
 import java.util.ArrayList;
 import java.util.List;

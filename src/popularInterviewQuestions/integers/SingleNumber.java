@@ -1,4 +1,4 @@
-package popularInterviewQuestions.singleNumber;
+package popularInterviewQuestions.integers;
 
 import java.util.HashSet;
 import java.util.Set;
