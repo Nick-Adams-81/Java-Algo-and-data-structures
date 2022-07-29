@@ -3,6 +3,7 @@ package popularInterviewQuestions.integers;
 public class FactorialTrailingZeros {
 
 
+    // TC: O(log n) SC: O(1)
     public int trailingZeros(int x) {
         int count = 0;
         for(int i = 5; i <= x; i = i * 5) {
