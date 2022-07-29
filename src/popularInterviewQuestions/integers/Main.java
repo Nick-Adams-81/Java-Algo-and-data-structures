@@ -5,7 +5,7 @@ public class Main {
 
 
     public static void main(String[] args) {
-        int[] arr = {5, 2, 1, 2, 1};
+        int[] arr = {1, 2, 2, 5, 1};
         ReverseInteger revInt = new ReverseInteger();
         PalindromeNumber numPal = new PalindromeNumber();
         FactorialTrailingZeros trailingZeros = new FactorialTrailingZeros();
@@ -16,6 +16,7 @@ public class Main {
 
         System.out.println(singleNum.singleNumber(arr));
         System.out.println(singleNum.advancedSingleNum(arr));
+        System.out.println(revInt.reverseInteger(12345));
 
 
     }
