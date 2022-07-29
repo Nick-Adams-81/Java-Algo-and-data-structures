@@ -10,8 +10,12 @@ public class Main {
         PalindromeNumber numPal = new PalindromeNumber();
         FactorialTrailingZeros trailingZeros = new FactorialTrailingZeros();
         PowerOfXAndN myPow = new PowerOfXAndN();
+        SingleNumber singleNum = new SingleNumber();
 
         System.out.println(FizzBuzz.fizzBuzz(50));
+
+        System.out.println(singleNum.singleNumber(arr));
+        System.out.println(singleNum.advancedSingleNum(arr));
 
 
     }
