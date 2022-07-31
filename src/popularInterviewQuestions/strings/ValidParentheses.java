@@ -3,7 +3,7 @@ package popularInterviewQuestions.strings;
 import java.util.HashMap;
 import java.util.Stack;
 
-public class ValidParenthaseses {
+public class ValidParentheses {
 
     public boolean isValid(String s) {
         HashMap<Character, Character> map = new HashMap<>();

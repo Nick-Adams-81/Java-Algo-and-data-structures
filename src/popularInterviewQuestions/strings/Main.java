@@ -9,7 +9,7 @@ public class Main {
         LongestCommomPrefix myPrefix = new LongestCommomPrefix();
         RepeatedDNASequence myDNA = new RepeatedDNASequence();
         LongestSubstringWithoutRepeatingChars substringChars = new LongestSubstringWithoutRepeatingChars();
-        ValidParenthaseses isValid = new ValidParenthaseses();
+        ValidParentheses isValid = new ValidParentheses();
         char[] myArr = {'h', 'e', 'l', 'l', 'o'};
 
         String myString = "AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT";
