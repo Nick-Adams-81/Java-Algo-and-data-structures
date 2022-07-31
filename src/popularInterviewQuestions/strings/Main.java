@@ -8,6 +8,7 @@ public class Main {
         ReverseString revStr = new ReverseString();
         LongestCommomPrefix myPrefix = new LongestCommomPrefix();
         RepeatedDNASequence myDNA = new RepeatedDNASequence();
+        LongestSubstringWithoutRepeatingChars substringChars = new LongestSubstringWithoutRepeatingChars();
         char[] myArr = {'h', 'e', 'l', 'l', 'o'};
 
         String myString = "AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT";
@@ -16,5 +17,6 @@ public class Main {
         System.out.println(myArr);
         System.out.println(myPrefix.longestPrefix(myStrArr));
         System.out.println(myDNA.findDNASubString(myString));
+        System.out.println(substringChars.lengthOfLongestSubstring("abcdeffg"));
     }
 }
