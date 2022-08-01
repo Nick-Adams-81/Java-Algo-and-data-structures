@@ -12,6 +12,7 @@ public class Main {
         ValidParentheses isValid = new ValidParentheses();
         LongestPalindromicSubstring isPalindrome = new LongestPalindromicSubstring();
         DecodeString decoder = new DecodeString();
+        ValidAnagram anagram = new ValidAnagram();
 
         char[] myArr = {'h', 'e', 'l', 'l', 'o'};
         String myString = "AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT";
@@ -26,5 +27,7 @@ public class Main {
         System.out.println(isValid.isValid("[]{}"));
         System.out.println(isPalindrome.longestPalindrome(newString));
         System.out.println(decoder.decodeString("3[a]2[bc]"));
+        System.out.println(anagram.isValidanagram("anagram", "nagaram"));
+        System.out.println(anagram.optimizedIsValidAnagram("accc", "ccac"));
     }
 }

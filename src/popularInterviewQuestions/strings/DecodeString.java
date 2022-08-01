@@ -4,6 +4,7 @@ import java.util.Stack;
 
 public class DecodeString {
 
+    // Asked  by google!!!!
     public String decodeString(String s) {
         Stack<Integer> numStack = new Stack<>();
         Stack<String> strStack = new Stack<>();
