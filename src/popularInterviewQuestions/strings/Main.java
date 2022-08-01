@@ -14,6 +14,7 @@ public class Main {
         DecodeString decoder = new DecodeString();
         ValidAnagram anagram = new ValidAnagram();
         GroupAnagrams anagrams = new GroupAnagrams();
+        LongestValidParentheses longestParens = new LongestValidParentheses();
 
         char[] myArr = {'h', 'e', 'l', 'l', 'o'};
         String myString = "AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT";
@@ -32,5 +33,6 @@ public class Main {
         System.out.println(anagram.isValidanagram("anagram", "nagaram"));
         System.out.println(anagram.optimizedIsValidAnagram("accc", "ccac"));
         System.out.println(anagrams.groupAnagrams(stringArr));
+        System.out.println(longestParens.longestValidParentheses("(()"));
     }
 }
