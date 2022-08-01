@@ -20,6 +20,7 @@ public class ValidAnagram {
         return true;
     }
 
+    // TC: O(n) SC: O(1)
     public boolean optimizedIsValidAnagram(String s, String t) {
         if(s.length() != t.length()) return false;
         int[] counter = new int[26];

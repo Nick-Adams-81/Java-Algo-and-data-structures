@@ -13,11 +13,13 @@ public class Main {
         LongestPalindromicSubstring isPalindrome = new LongestPalindromicSubstring();
         DecodeString decoder = new DecodeString();
         ValidAnagram anagram = new ValidAnagram();
+        GroupAnagrams anagrams = new GroupAnagrams();
 
         char[] myArr = {'h', 'e', 'l', 'l', 'o'};
         String myString = "AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT";
         String[] myStrArr = {"flower", "flow", "float"};
         String newString = "maddam";
+        String[] stringArr = {"eat", "tea", "tan", "ate", "nat", "bat"};
 
         revStr.reverseString(myArr);
         System.out.println(myArr);
@@ -29,5 +31,6 @@ public class Main {
         System.out.println(decoder.decodeString("3[a]2[bc]"));
         System.out.println(anagram.isValidanagram("anagram", "nagaram"));
         System.out.println(anagram.optimizedIsValidAnagram("accc", "ccac"));
+        System.out.println(anagrams.groupAnagrams(stringArr));
     }
 }
