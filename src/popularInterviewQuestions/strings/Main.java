@@ -15,6 +15,7 @@ public class Main {
         ValidAnagram anagram = new ValidAnagram();
         GroupAnagrams anagrams = new GroupAnagrams();
         LongestValidParentheses longestParens = new LongestValidParentheses();
+        ReverseWordInAString revString = new ReverseWordInAString();
 
         char[] myArr = {'h', 'e', 'l', 'l', 'o'};
         String myString = "AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT";
@@ -34,5 +35,6 @@ public class Main {
         System.out.println(anagram.optimizedIsValidAnagram("accc", "ccac"));
         System.out.println(anagrams.groupAnagrams(stringArr));
         System.out.println(longestParens.longestValidParentheses("(()"));
+        System.out.println(revString.reverseWord("the sky is blue"));
     }
 }
