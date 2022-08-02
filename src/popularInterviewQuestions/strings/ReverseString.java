@@ -1,6 +1,5 @@
 package popularInterviewQuestions.strings;
 
-import java.util.ArrayList;
 
 public class ReverseString {
 
