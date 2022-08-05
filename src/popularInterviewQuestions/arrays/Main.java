@@ -17,6 +17,7 @@ public class Main {
         int[] myTwoSum = {2, 7, 11, 15};
         int[] dupes = {1, 2, 5, 8, 5};
         int[] flowerBed = {1, 0, 0, 0, 1};
+        int[] newFlowerBed = {1, 0, 0, 0, 1, 0, 0, 0, 1};
         String str = "hello world";
 
         System.out.println(myStock.maxProfit(myArr));
@@ -28,6 +29,7 @@ public class Main {
         System.out.println(duplicates.containsDuplicate(dupes));
         System.out.println(lastWord.lengthOfLastWord(str));
         System.out.println(flowers.canPlaceFlowers(flowerBed, 1));
+        System.out.println(flowers.optimizedPlaceFlowers(newFlowerBed, 2));
 
     }
 }
