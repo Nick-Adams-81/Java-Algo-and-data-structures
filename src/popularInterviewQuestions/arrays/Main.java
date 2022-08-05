@@ -8,12 +8,14 @@ public class Main {
         MoveZeros moveZeros = new MoveZeros();
         TwoSum twoSum = new TwoSum();
         ContainsDuplicate duplicates = new ContainsDuplicate();
+        LengthOfLastWord lastWord = new LengthOfLastWord();
 
         int[] myArr = {7, 1, 5, 3, 8, 4};
         int[] zerozArr = {1, 0, 4, 23, 0, 8, 12};
         int[] moreZeroz = {0, 4, 8, 0, 1, 2, 0, 9, 12, 0, 7, 13};
         int[] myTwoSum = {2, 7, 11, 15};
         int[] dupes = {1, 2, 5, 8, 5};
+        String str = "hello world";
 
         System.out.println(myStock.maxProfit(myArr));
         moveZeros.moveZeros(zerozArr);
@@ -22,6 +24,7 @@ public class Main {
         System.out.println(Arrays.toString(moreZeroz));
         System.out.println(Arrays.toString(twoSum.twoSum(myTwoSum, 18)));
         System.out.println(duplicates.containsDuplicate(dupes));
+        System.out.println(lastWord.lengthOfLastWord(str));
 
     }
 }
