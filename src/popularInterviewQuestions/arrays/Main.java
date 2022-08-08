@@ -8,11 +8,13 @@ public class Main {
         BuyAndSellStock myStock = new BuyAndSellStock();
         MoveZeros moveZeros = new MoveZeros();
         TwoSum twoSum = new TwoSum();
+        ContainsDuplicate containsDupes = new ContainsDuplicate();
 
         int[] stock = {7, 1, 5, 3, 6, 4};
         int[] zeros = {0, 3, 5, 0, 12, 0, 4, 6};
         int[] moreZeros = {9, 3, 0, 6, 1, 0, 0, 8, 4};
         int[] twosum = {2, 7, 11, 13};
+        int[] duplicates = {1, 2, 3, 4, 5, 6, 7};
 
         System.out.println(myStock.maxProfit(stock));
         moveZeros.moveZeros(zeros);
@@ -20,6 +22,7 @@ public class Main {
         moveZeros.eficientMoveZeros(moreZeros);
         System.out.println(Arrays.toString(moreZeros));
         System.out.println(Arrays.toString(twoSum.twoSum(twosum, 18)));
+        System.out.println(containsDupes.containsDuplicates(duplicates));
 
     }
 }
