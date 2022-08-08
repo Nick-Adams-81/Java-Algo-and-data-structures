@@ -10,12 +10,14 @@ public class Main {
         TwoSum twoSum = new TwoSum();
         ContainsDuplicate containsDupes = new ContainsDuplicate();
         LengthOfLastWord lastWord = new LengthOfLastWord();
+        PlaceFlowers flowerbed = new PlaceFlowers();
 
         int[] stock = {7, 1, 5, 3, 6, 4};
         int[] zeros = {0, 3, 5, 0, 12, 0, 4, 6};
         int[] moreZeros = {9, 3, 0, 6, 1, 0, 0, 8, 4};
         int[] twosum = {2, 7, 11, 13};
         int[] duplicates = {1, 2, 3, 4, 5, 6, 7};
+        int[] flowers = {1, 0, 0, 0, 1, 0, 0, 0, 1};
         String str = "length of last word in this sentence";
 
         System.out.println(myStock.maxProfit(stock));
@@ -26,6 +28,7 @@ public class Main {
         System.out.println(Arrays.toString(twoSum.twoSum(twosum, 18)));
         System.out.println(containsDupes.containsDuplicates(duplicates));
         System.out.println(lastWord.lengthOfLastWord(str));
+        System.out.println(flowerbed.canPlaceFlowers(flowers, 2));
 
     }
 }
