@@ -31,6 +31,8 @@ public class Main {
         myLinkedList.printTail();
         myLinkedList.printLength();
 
+        System.out.println(myLinkedList.get(1).value);
+
 
     }
 }
