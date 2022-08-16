@@ -30,15 +30,15 @@ public class LinkedList {
     }
 
     public void printHead() {
-        System.out.println(head.value);
+        System.out.println("Head: " + head.value);
     }
 
     public void printTail() {
-        System.out.println(tail.value);
+        System.out.println("Tail: " + tail.value);
     }
 
     public void printLength() {
-        System.out.println(length);
+        System.out.println("Length: " + length);
     }
 
     public void append(int value) {
@@ -51,5 +51,23 @@ public class LinkedList {
             tail = newNode;
         }
         length++;
+    }
+
+    public Node removeLast() {
+        if(length == 0) return null;
+        Node temp = head;
+        Node pre = head;
+        while(temp.next != null) {
+            pre = temp;
+            temp = temp.next;
+        }
+        tail = pre;
+        tail.next = null;
+        length--;
+        if(length == 0) {
+            head = null;
+            tail = null;
+        }
+        return temp;
     }
 }
