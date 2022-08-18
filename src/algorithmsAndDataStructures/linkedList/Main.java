@@ -33,6 +33,13 @@ public class Main {
 
         System.out.println(myLinkedList.get(1).value);
 
+        myLinkedList.insert(1, 13);
+        myLinkedList.printList();
+        myLinkedList.printHead();
+        myLinkedList.printTail();
+        myLinkedList.printLength();
+
+
 
     }
 }
