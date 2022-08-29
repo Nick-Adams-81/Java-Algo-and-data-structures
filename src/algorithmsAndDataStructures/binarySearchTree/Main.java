@@ -15,7 +15,7 @@ public class Main {
         myBST.printLeft();
         myBST.printRight();
 
-        System.out.println(myBST.contains(50));
+        System.out.println(myBST.contains(52));
 
         System.out.println(myBST.BFS());
 
