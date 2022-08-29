@@ -48,5 +48,11 @@ public class Main {
 
         System.out.println(myDLL.get(0).value);
 
+        myDLL.set(3, 55);
+        myDLL.printList();
+        myDLL.printHead();
+        myDLL.printTail();
+        myDLL.printLength();
+
     }
 }
