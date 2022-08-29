@@ -55,4 +55,18 @@ public class DoublyLinkedList {
         length++;
     }
 
+    public Node removeLaast() {
+        if(length == 0) return null;
+        if(length == 1) {
+            head = null;
+            tail = null;
+        }
+        Node temp = tail;
+        tail = tail.prev;
+        tail.next = null;
+        temp.prev = null;
+        length--;
+        return temp;
+    }
+
 }
