@@ -65,7 +65,6 @@ public class Queue {
             first = first.next;
             temp.next = null;
         }
-
         length--;
         return temp;
     }
