@@ -31,15 +31,28 @@ public class DoublyLinkedList {
     }
 
     public void printHead() {
-        System.out.println(head.value);
+        System.out.println("Head: " + head.value);
     }
 
     public void printTail() {
-        System.out.println(tail.value);
+        System.out.println("Tail: " + tail.value);
     }
 
     public void printLength() {
-        System.out.println(length);
+        System.out.println("Length: " + length);
+    }
+
+    public void append(int value) {
+        Node newNode = new Node(value);
+        if(length == 0) {
+            head = newNode;
+            tail = newNode;
+        } else {
+            tail.next = newNode;
+            newNode.prev = tail;
+            tail = newNode;
+        }
+        length++;
     }
 
 }
