@@ -20,7 +20,7 @@ public class Main {
         myDLL.printHead();
         myDLL.printTail();
         myDLL.printLength();
-        myDLL.removeLaast();
+        myDLL.removeLast();
         myDLL.printList();
         myDLL.printHead();
         myDLL.printTail();
