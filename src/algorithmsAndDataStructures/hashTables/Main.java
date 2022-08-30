@@ -14,6 +14,7 @@ public class Main {
         myHashTable.set("Storm-breaker", 645);
         myHashTable.printTable();
         System.out.println(myHashTable.get("Hammer"));
+        System.out.println(myHashTable.keys());
     }
 
 
