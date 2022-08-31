@@ -23,6 +23,5 @@ public class Main {
     public static void main(String[] args) {
         methodOne();
         System.out.println(factorial(4));
-
     }
 }
