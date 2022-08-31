@@ -11,5 +11,10 @@ public class Main {
         myGraph.addVertex("C");
         myGraph.addVertex("D");
         myGraph.printGraph();
+
+        myGraph.addEdge("A", "B");
+        myGraph.addEdge("A", "C");
+        myGraph.addEdge("A", "D");
+        myGraph.printGraph();
     }
 }
