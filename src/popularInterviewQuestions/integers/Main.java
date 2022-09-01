@@ -14,7 +14,7 @@ public class Main {
 
         System.out.println(FizzBuzz.fizzBuzz(50));
 
-//        System.out.println(singleNum.singleNumber(arr));
+        System.out.println(singleNum.singleNumber(arr));
 //        System.out.println(singleNum.advancedSingleNum(arr));
 //        System.out.println(revInt.reverseInteger(12345));
 //        System.out.println(numPal.numberPalindrome(122));
