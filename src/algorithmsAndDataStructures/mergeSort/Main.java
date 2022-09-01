@@ -11,6 +11,7 @@ public class Main {
         int[] myArr3 = {5, 6, 7, 8};
         System.out.println(Arrays.toString(MergeSort.merge(myArr2, myArr3)));
 
+        System.out.println(Arrays.toString(MergeSort.mergeSort(myArr)));
 
     }
 }
