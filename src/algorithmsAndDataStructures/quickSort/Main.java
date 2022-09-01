@@ -6,7 +6,10 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int[] myArr = {5, 1, 6, 4, 7, 3, 2};
+        int[] myArr = {4, 6, 1, 7, 3, 2, 5};
+        QuickSort.quickSort(myArr);
+        System.out.println(Arrays.toString(myArr));
+
 
 
     }
