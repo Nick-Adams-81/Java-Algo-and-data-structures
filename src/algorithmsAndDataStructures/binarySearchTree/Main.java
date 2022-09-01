@@ -19,11 +19,11 @@ public class Main {
 
         System.out.println(myBST.BFS());
 
-        System.out.println(myBST.preOrderDFS());
-
-        System.out.println(myBST.postOrderDFS());
-
-        System.out.println(myBST.inOrderDFS());
+//        System.out.println(myBST.preOrderDFS());
+//
+//        System.out.println(myBST.postOrderDFS());
+//
+//        System.out.println(myBST.inOrderDFS());
 
 
     }
