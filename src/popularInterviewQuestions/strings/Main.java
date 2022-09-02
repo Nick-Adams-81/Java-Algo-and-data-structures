@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
         ReverseString revStr = new ReverseString();
-        LongestCommomPrefix myPrefix = new LongestCommomPrefix();
+        LongestCommonPrefix myPrefix = new LongestCommonPrefix();
         RepeatedDNASequence myDNA = new RepeatedDNASequence();
         LongestSubstringWithoutRepeatingChars substringChars = new LongestSubstringWithoutRepeatingChars();
         ValidParentheses isValid = new ValidParentheses();
