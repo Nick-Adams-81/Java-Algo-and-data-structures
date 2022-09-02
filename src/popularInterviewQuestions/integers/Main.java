@@ -16,7 +16,7 @@ public class Main {
 
         System.out.println(singleNum.singleNumber(arr));
 //        System.out.println(singleNum.advancedSingleNum(arr));
-//        System.out.println(revInt.reverseInteger(12345));
+        System.out.println(revInt.reversed(12));
 //        System.out.println(numPal.numberPalindrome(122));
 //        System.out.println(trailingZeros.trailingZeros(25));
 //        System.out.println(myPow.myPow(2, 4));
